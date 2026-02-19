@@ -10,7 +10,13 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dist-server
 *.local
+*.db
+
+# Private/sensitive files
+CLAUDE.md
+data/
 
 # Editor directories and files
 .vscode/*
