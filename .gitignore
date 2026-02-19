@@ -16,6 +16,7 @@ dist-server
 
 # Private/sensitive files
 CLAUDE.md
+.claude/
 data/
 
 # Editor directories and files
