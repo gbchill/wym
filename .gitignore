@@ -1,49 +1,24 @@
-#data files
-data/
-*.csv
-*.xlsx
-*.xls
-*.json
-*.db
-*.sqlite
-*.sqlite3
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
+node_modules
+dist
+dist-ssr
+*.local
 
-# Environment files
-.env
-.env.local
-.env.*.local
-config.local.yaml
-
-.claude/
-claude_desktop_config.json
-claude_config.json
-.claude_code/
-.claudecode/
-claude-code-config.json
-
-#python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-.venv
-pip-log.txt
-pip-delete-this-directory.txt
-.pytest_cache/
-.coverage
-htmlcov/
-*.pyc
-
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
